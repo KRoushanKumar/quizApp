@@ -1,0 +1,173 @@
+
+input[type=radio] {
+    border: 0px;
+    width: 10%;
+    height: 1em;
+    margin-top:10px;
+}
+
+.MainFeedback
+{
+  margin-top: 10px;
+  height: 500px;
+  
+  display: flex;
+  width: 100%;
+}
+.MainFeedback .leftside
+{
+  display: flex;
+  width: 100%;
+
+}
+.MainFeedback .rightside
+{
+   
+  display: flex;
+  width: 100%;
+
+}
+  
+.MyLabel label {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputBox input {
+    height: 30px;
+    background-color: #FAF4F5;
+    border: 1px solid #919191;
+    border-radius: 50px;
+    transition: 0.1s;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding-left: 10px;
+    border-right-width: 2px;
+    border-bottom-width:5px;
+}
+/* input[type=text]:focus {
+    width: 100%;
+    border-bottom: 3px solid #8FE6FB;
+    outline: none;
+    border-right-width:5px;
+} */
+
+.Feedback {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: -4px -4px 10px #AFAFAF;
+    margin-left: 5%;
+    width: 100%;
+    height: 480px;
+    
+}
+.Button {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #F33C0F;
+    margin-left: 10px;
+    background-color: white;
+    border: 2px solid #F33C0F;
+    border-radius:5px;
+    transition:0.2s;
+}
+.Button:hover {
+    box-shadow: 4px 4px 5px #D1D9D9;
+    border: 2px solid #F33C0F;
+    border-radius: 2px;
+    color:forestgreen;
+}
+.mysugg {
+    resize: none;
+    height: 100px;
+    width: 100%;
+    background-color: #FAF4F5;
+    outline: none;
+    cursor: text;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.mysugg:focus {
+    border-bottom: 3px solid #8FE6FB;
+    outline: none;
+}
+.Topfeedback {
+    border: none;
+    margin: 0px 10px 10px 10px;
+    height: 480px;
+    box-shadow: -4px -4px 10px #AFAFAF;
+    border-radius: 5px;
+    overflow-y:auto ;
+    background-color: #D9DEDF;
+    width: 100%;
+
+}
+.feed {
+    background-color: #4CAB61;
+    margin: 10px 20px 20px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -4px -4px 10px #3F3F3F;
+   /* transition:0.2s; */
+   
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #A2A2A2;
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+.s{
+    color:red;
+    display:inline-block;
+}
+
+@media only screen and (max-width: 650px){
+
+.MainFeedback
+{
+    display: block;
+    height: max-content;
+}
+
+.Feedback {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: -1px -1px 2px #AFAFAF;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 480px;
+    
+}
+
+.Topfeedback {
+
+    box-shadow: -1px -1px 2px #AFAFAF;
+ 
+
+}
+
+}

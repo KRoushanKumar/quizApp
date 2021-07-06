@@ -1,0 +1,21 @@
+.mnfoot{
+ word-spacing:10px;
+ font-family: 'Josefin Slab', serif;
+ background-color:black;
+ height:20vh;
+ width:100vw;
+ display: flex;
+ padding: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.col1{
+  color:white;
+}
+.col2{
+  color:white;
+}
+.col3{
+  color:white;
+}

@@ -1,0 +1,78 @@
+*{
+ margin: 0;
+}
+.heading{
+ background-color: black;
+ color:white;
+ text-align: center;
+ background-position:sticky;
+ display:block;
+ margin-top:0;
+}
+.logout{
+ text-align: end;
+clear: both;
+padding-top:5px;
+}
+ .part{
+ display: flex;
+ flex-direction:row;
+}
+.part1{
+ height:100vh;
+ width:30vw;
+ background-color: yellow;
+}
+.part2{
+ height:100vh;
+ width:70vw;
+ background-color: red;
+}
+.part1 navbar h2{
+ text-align:center;
+ background-color:seagreen;
+ color:white;
+}
+.pic{
+ align-items: center;
+ margin-left:7vw;
+ margin-top:3vh;
+}
+.mid{
+ margin-top:6vh;
+ color:whitesmoke;
+}
+.lower{
+ margin-top:8vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.part1{
+ background-color: rgb(63, 60, 60);
+ box-shadow: -2px -5px 78px 24px rgba(23,22,22,0.81) inset;
+-webkit-box-shadow: -2px -5px 78px 24px rgba(23,22,22,0.81) inset;
+-moz-box-shadow: -2px -5px 78px 24px rgba(23,22,22,0.81) inset;
+}
+.part2{
+ background-color: rgb(35, 35, 39);
+ box-shadow: -2px -5px 78px 24px rgba(23,22,22,0.81) inset;
+-webkit-box-shadow: -2px -5px 78px 24px rgba(23,22,22,0.81) inset;
+-moz-box-shadow: -2px -5px 78px 24px rgba(23,22,22,0.81) inset;
+}
+.part2 h2{
+ background-color: rgb(77, 151, 109);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color:whitesmoke;
+}
+.que li{
+ color:white;
+ background-color: black;
+}
+.q{
+ margin-top:15px;
+ background-color: aliceblue;
+ font-size: larger;
+}
